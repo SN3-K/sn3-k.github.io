@@ -117,7 +117,7 @@
                                 <h1 class="font-normal text-gray-700 text-3xl md:text-4xl mb-5"><a class="hover:text-blue-400" href="https://wavycarwash.com/">wavycarwash.com</a></h1>
 
                                 <p class="font-normal text-gray-500 text-sm md:text-base">Customer Site, this website was created using the following technologies: Docker, Nginx, HTML5, Custom CSS,
-                                    Custom JS, Custom Lead Generation Form, and Custom SEO.</p>
+                                    Custom JS, Custom Lead Generation Form, and Custom SEO.
                                 </p>
                                 <br />
                                 <img src="assets/image/wavycarwash.png" alt="wavycarwash.com">
@@ -173,6 +173,24 @@
                 </div>
 
             </div>
+
+        </section>
+        <section class="py-5 md:py-8 w-1/3 mx-auto">
+            <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">CodersRank Summary</h1>
+            <codersrank-summary username="SN3-K"
+                labels
+                tooltip
+            ></codersrank-summary>
+            <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">CodersRank Activity</h1>
+            <codersrank-activity username="SN3-K"
+                labels
+                tooltip
+            ></codersrank-activity>
+            <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">CodersRank Skills Chart</h1>
+            <codersrank-skills-chart username="SN3-K"
+                labels
+                tooltip
+            ></codersrank-skills-chart>
 
         </section>
         <!--
@@ -358,6 +376,9 @@
         <script>
             feather.replace()
         </script>
+        <script src="https://unpkg.com/@codersrank/summary/codersrank-summary.min.js"></script>
+        <script src="https://unpkg.com/@codersrank/activity/codersrank-activity.min.js"></script>
+        <script src="https://unpkg.com/@codersrank/skills-chart/codersrank-skills-chart.min.js"></script>
 
     </body>
 </html>
